@@ -21,7 +21,7 @@
     "require":
     {
         "php": ">=5.2",
-        "ensepar/tcpdf": "5.0.002"
+        "ensepar/tcpdf": "5.0.003"
     },
     "autoload":
     {
