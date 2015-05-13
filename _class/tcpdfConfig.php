@@ -62,9 +62,9 @@ if (!defined('K_TCPDF_EXTERNAL_CONFIG')) {
     // Automatic calculation for the following K_PATH_MAIN constant
     $kPathMain = str_replace('\\', '/', dirname(__FILE__));
     $kPathMain = dirname($kPathMain).'/'; // remove the current directory
-    $kPathMain.= '../../ensepar/tcpdf/';
+    $kPathMain.= '../../tecnick.com/tcpdf/';
     $kPathMain = realpath($kPathMain);
-    define('K_PATH_MAIN', $kPathMain);
+    define('K_PATH_MAIN', $kPathMain . '/');
 
     // Automatic calculation for the following K_PATH_URL constant
     $kPathUrl = $kPathMain; // default value for console mode
